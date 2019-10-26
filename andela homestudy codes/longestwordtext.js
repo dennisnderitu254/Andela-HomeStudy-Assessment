@@ -1,5 +1,6 @@
 function longest(str) {
     if(typeof str !== 'string') return '';
+    #this declaring a variable named word
     var words = str.split(' ');
     var longest = '';
 
